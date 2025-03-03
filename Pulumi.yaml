@@ -1,0 +1,10 @@
+name: simple-random
+description: A minimal Pulumi YAML program
+runtime: yaml
+resources:
+  password:
+    type: random:RandomPassword
+    properties:
+      length: 20
+outputs:
+  myPassword: ${password.result}
