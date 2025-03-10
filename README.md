@@ -1,4 +1,4 @@
-# Test program for checking org access
+# Test program for simple checks
 
 ## Pre-requisites
 
