@@ -5,6 +5,6 @@ resources:
   password:
     type: random:RandomPassword
     properties:
-      length: 20
+      length: 25
 outputs:
   myPassword: ${password.result}
