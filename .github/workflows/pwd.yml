@@ -1,0 +1,13 @@
+name: Run pwd command
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  run-pwd:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Run pwd command
+      run: pwd
