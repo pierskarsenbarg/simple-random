@@ -16,3 +16,5 @@ jobs:
               uses: actions/checkout@v5
             - name: Install Pulumi
               uses: pulumi/actions@v6
+            - name: Pulumi Version
+              run: pulumi version
