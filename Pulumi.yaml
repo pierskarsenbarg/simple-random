@@ -4,7 +4,7 @@ runtime: yaml
 config:
   passwordLength: 
     type: integer
-    default: 20
+    default: 25
 variables:
   passwordLength: ${passwordLength}
 resources:
