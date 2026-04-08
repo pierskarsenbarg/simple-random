@@ -1,2 +1,2 @@
 config:
-  simple-random:passwordLength: 30
+  simple-random:passwordLength: 21
